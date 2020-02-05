@@ -1,0 +1,24 @@
+{
+  "name": "woss",
+  "version": "1.0.0",
+  "description": "Web-oriented software systems course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -p 45892 -o http://127.0.0.1:45892/ -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progbase/woss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/progbase/woss/issues"
+  },
+  "homepage": "https://github.com/progbase/woss#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
